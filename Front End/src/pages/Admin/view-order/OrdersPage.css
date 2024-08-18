@@ -1,0 +1,71 @@
+.orders-container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 8px; 
+  }
+  .order-item span {
+    color: black;
+    margin-right: 50px;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center; 
+    background: #ffffff; 
+    margin-bottom: 10px; 
+    padding: 10px;
+    border-radius: 4px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .order-item input[type="email"],
+  .order-item input[type="text"] {
+    flex: 1;
+    margin-right: 10px; 
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+  }
+  
+  .order-item button {
+    padding: 10px 15px;
+    margin-left: 10px; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-weight: bold; 
+  }
+  
+  .order-item button.update {
+    background-color: #4CAF50; 
+    color: white;
+  }
+  
+  .order-item button.delete {
+    background-color: #f44336; 
+    color: white;
+  }
+  
+  .order-item button:hover {
+    opacity: 0.9; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .orders-container {
+      padding: 10px;
+    }
+  
+    .order-item {
+      flex-direction: column;
+    }
+  
+    .order-item input[type="email"],
+    .order-item input[type="text"],
+    .order-item button {
+      margin: 5px 0; 
+    }
+  }
+  

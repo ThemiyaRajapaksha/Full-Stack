@@ -1,0 +1,72 @@
+
+.nav-links .cart-link {
+  padding-right: 20px; 
+}
+
+.nav-links .cart-link a {
+  text-decoration: none;
+  color: #fff; 
+  font-size: 1.5em; 
+}
+
+.nav-links .cart-link a:hover {
+  color: #ccc; 
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004d00; 
+    padding: 10px 20px;
+  }
+ 
+.logo-img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  @font-face {
+    font-family: 'Gayathri';
+    src: url('../Gayathri-Thin.ttf') format('truetype');
+  }
+  
+  .navigation {
+    font-family: 'Gayathri', sans-serif; 
+  }
+  .App-logo {
+    width: '80px'  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 60px; 
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold; 
+    word-spacing: 100px; 
+
+  }
+  .sign-in a { 
+    text-decoration: none; 
+    color: white;
+  }
+  
+  .sign-in a:focus {
+    outline: none;
+    
+  }
+  .sign-in button {
+    text-decoration: none;
+
+    background: transparent; 
+    border: 2px solid white; 
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  
+    font-family: 'Gayathri', sans-serif; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+  }

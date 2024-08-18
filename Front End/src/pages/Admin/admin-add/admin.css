@@ -1,0 +1,131 @@
+.admin-dashboard-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .form-group select,
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.success-message {
+    color: white; 
+    margin-top: 15px;
+    font-size:x-large
+  }
+  
+
+
+  .admin-dashboard {
+    width: 100%;
+  }
+  
+  .admin-content {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .admin-menu {
+    flex-basis: 20%;
+ 
+  }
+  
+  .admin-form-container {
+    flex-basis: 80%;
+    padding: 20px;
+
+  }
+  
+  .admin-menu-form {
+
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+
+.admin-users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-users-table th, .admin-users-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.admin-users-table th {
+  background-color: #f4f4f4;
+}
+
+.admin-users-table td input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.admin-users-table td button {
+  padding: 8px 15px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-users-table td button.update {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.admin-users-table td button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.admin-users-table td button:hover {
+  opacity: 0.8;
+}

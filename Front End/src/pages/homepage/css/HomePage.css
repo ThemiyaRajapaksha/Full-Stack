@@ -1,0 +1,43 @@
+
+.home-page {
+    background-color: #004d00; 
+    color: white;
+    font-family: 'Gayathri', sans-serif;
+    min-height: 100vh; 
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left:250px;
+    height: calc(100vh - 50px); 
+  }
+  
+  .text-content {
+    max-width: 50%; 
+  }
+  @font-face {
+    font-family: 'GrechenFuemen';
+    src: url('../GrechenFuemen-Regular.ttf') format('truetype');
+  }
+  .text-content h1 {
+    font-size: 4rem; 
+    margin: 0 0 20px 0; 
+  }
+  body {
+    font-family: 'GrechenFuemen', sans-serif;
+  }
+  .text-content h1, .text-content h2 {
+    font-family: 'GrechenFuemen', sans-serif;
+  }
+  
+  .text-content h2 {
+    font-size: 2rem; 
+  }
+  
+  .image-content img {
+    max-width: 90%; 
+    height: auto; 
+  }
+  

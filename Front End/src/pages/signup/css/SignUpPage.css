@@ -1,0 +1,172 @@
+.sign-up-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #004d00; 
+  }
+.signup-message {
+  color: white; 
+  font-size: large;
+}
+
+
+
+  .sign-up-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .sign-up-form {
+    flex-basis: 50%;
+    padding: 2em;
+  }
+  
+  .sign-up-form h1 {
+    color: white;
+    margin-bottom: 1em;
+  }
+  
+  .form-group {
+    margin-bottom: 1em;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 1em;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    margin-bottom: 0.5em;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.5em;
+  }
+  
+  label.remember-me {
+    color: white;
+    font-size: 0.9em;
+  }
+  
+  button.sign-up-button {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background-color: #f0c14b; 
+    color: #111; 
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  button.google-sign-in {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background-color: #4285F4; 
+    color: white;
+    font-weight: bold;
+  }
+  
+  .divider {
+    color: white;
+    text-align: center;
+    margin: 2em 0;
+  }
+  
+
+.login-redirect {
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+
+  }
+  
+  .login-link {
+    color: #fff; 
+    font-size: 1.4em; 
+    text-decoration: none; 
+   
+  }
+  
+  .login-link:hover {
+    color: #ccc;
+    text-decoration: underline;
+  }
+  
+  
+  .sign-up-image {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .sign-up-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 1em;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  margin-bottom: 0.5em;
+  border-radius: 20px; 
+  font-size: 1.1em; 
+}
+
+
+::placeholder {
+  color: white;
+  opacity: 1;
+  font-size: 1.1em;
+}
+
+:-ms-input-placeholder { 
+  color: white;
+  font-size: 1.1em;
+}
+
+::-ms-input-placeholder { 
+  color: white;
+  font-size: 1.1em;
+}
+
+button.sign-up-button {
+  width: 100%;
+  padding: 1em;
+  border: none;
+  background-color: white; 
+  color: #004d00; 
+  font-weight: bold;
+  margin-bottom: 1em;
+  border-radius: 20px; 
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; 
+}
+@font-face {
+    font-family: 'Gayathri-Regular';
+    src: url('../font/Gayathri-Regular.ttf') format('truetype');
+  }
+button.sign-up-button:hover {
+  background-color: #f0c14b; 
+  color: #111;
+} body {
+    font-family: 'Gayathri-Regular', sans-serif;
+  }
+
+  @media (max-width: 768px) {
+    .sign-up-content {
+      flex-direction: column-reverse;
+    }
+  
+    .sign-up-form, .sign-up-image {
+      flex-basis: 100%;
+    }
+  }
+  

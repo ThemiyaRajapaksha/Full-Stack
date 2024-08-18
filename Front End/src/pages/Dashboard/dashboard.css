@@ -1,0 +1,84 @@
+/* Navbar styling */
+.navbar {
+  background-color: #2c3e50; /* Darker green for navbar background */
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Order Details Container */
+.order-details-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Order Card */
+.order-card {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.order-card h2 {
+  color: #27ae60; /* Green color for order ID */
+  margin-bottom: 20px;
+}
+
+.order-card p {
+  margin: 10px 0;
+}
+
+.order-card h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.order-card ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.order-card li {
+  margin-bottom: 10px;
+}
+
+/* No Orders Found */
+.no-orders {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.explore-btn {
+  background-color: #27ae60; /* Green color for button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.explore-btn:hover {
+  background-color: #2c3e50; /* Darker green for button hover */
+}

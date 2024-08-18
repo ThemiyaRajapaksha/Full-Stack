@@ -1,0 +1,132 @@
+
+.category-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .category-button {
+
+  }
+  
+  .category-button.active {
+    background-color: white;
+    color: #004d00; 
+ 
+  }
+  
+  .category-button {
+    background: transparent; 
+    border: 2px solid #fff;
+    border-radius: 30px; 
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff; 
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  
+  .item-card {
+    background-color: #fff;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    text-align: center; 
+    margin: 10px; 
+    color: #333; 
+  }
+  
+  .item-image {
+    width: 100%;
+    display: block;
+  }
+  
+  .item-info {
+    padding: 15px;
+    background: #fff;
+  }
+  
+  .item-info h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .item-info p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+
+  .menu-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #004d00;
+  }
+  
+  .items-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600; 
+  }
+
+.menu-layout {
+    padding-bottom: 10px;
+
+    padding-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #004d00;
+
+  }
+  
+
+  .category-menu {
+    flex: 0 0 200px;
+
+  }
+  
+
+  .items-container {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+
+  .items-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+
+  .item-card {
+    width: calc(33.333% - 20px); 
+    margin: 10px; 
+  }
+ 
+  @media (max-width: 768px) {
+    .item-card {
+      width: 100%;
+    }
+  
+    .menu-layout {
+      flex-direction: column;
+    }
+  
+    .items-container {
+      padding: 0;
+    }
+  }
+  
+
+
+  

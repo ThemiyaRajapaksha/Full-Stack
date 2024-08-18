@@ -1,0 +1,44 @@
+.promotions-container {
+  background-color: #004d00; 
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.promotion-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background: #004d00;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.promotion-item img {
+  border-radius: 5px;
+  width: 100px; 
+  height: auto;
+}
+
+.promotion-item input {
+  margin-right: 10px;
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.promotion-action-buttons {
+  margin-left: 10px;
+}
+
+
+button.update {
+  background-color: #5cb85c; 
+}
+
+button.delete {
+  background-color: #d9534f;
+}
+
+button:hover { 
+  opacity: 0.8;
+}
